@@ -8,8 +8,5 @@ let tasks = [
 	{ label: 'Read a book', done: true },
 	{ label: 'Make a trip', done: false }
 ];
+
 //your code here
-let taskDone = tasks.filter(function(value){
-	return value.done === true;
-})
-console.log(taskDone);

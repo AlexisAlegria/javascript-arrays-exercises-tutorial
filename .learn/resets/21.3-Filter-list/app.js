@@ -2,8 +2,4 @@ let names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','L
 
 //declare your function here
 
-const filterByName = (theArray, theString) =>{
-    let output = theArray.filter(item => item.toLowerCase().includes(theString.toLowerCase()));
-    return output;
-}
 console.log(filterByName(names, 'am'));
